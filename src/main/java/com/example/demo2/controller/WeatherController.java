@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api/weather")
-@CrossOrigin(origins = {"https://corbinactivityhub.vercel.app", "http://localhost:3000"})
+@CrossOrigin(origins = {"https://www.corbinactivityhub.com", "http://localhost:3000"})
 public class WeatherController {
     private final WeatherService weatherService;
 
